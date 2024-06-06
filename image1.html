@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이미지 설명 페이지</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* 개별 위치 조정 */
+        :root {
+            --image-padding-right: 80px /* 이미지와 타이틀 사이 간격 */
+        }
+    </style>
+</head>
+<body>
+    <div class="title-container">
+        <div class="scrolling-text" onclick="window.location.href='index.html'">
+            웃으면.. 복이 올까요? 笑門萬福來?   _   웃으면.. 복이 올까요? 笑門萬福來?   _   웃으면.. 복이 올까요? 笑門萬福來?
+        </div>
+    </div>
+    <div class="buttons-container">
+        <div class="category-button" onclick="window.location.href='Category-1.html'">웃음소리</div>
+        <div class="category-button" onclick="window.location.href='page3.html'">웃음종류</div>
+        <div class="category-button" onclick="window.location.href='page4.html'">관련해서</div>
+        <div class="category-button" onclick="window.location.href='무책임한 웃음.html'">무책임한 웃음</div>
+        <div class="category-button" onclick="window.location.href='다른웃음.html'">다른 웃음</div>
+    </div>
+
+
+
+    <div class="main-container">
+        <!-- 좌측 컨테이너: 이미지와 설명 테이블 -->
+        <div class="left-container">
+            <img src="sample/image1.png" alt="Image Description" class="image">
+            <table class="description-table">
+                <tr class="header-row">
+                    <td colspan="2" class="table-header">이미지 정보</td>
+                </tr>
+                <tr>
+                    <td class="label-cell">크기:</td>
+                    <td class="value-cell">800 x 600</td>
+                </tr>
+                <tr>
+                    <td class="label-cell">형식:</td>
+                    <td class="value-cell">PNG</td>
+                </tr>
+                <tr>
+                    <td class="label-cell">출처:</td>
+                    <td class="value-cell">여기에 출처를 입력하세요</td>
+                </tr>
+                <tr>
+                    <td class="label-cell">날짜:</td>
+                    <td class="value-cell">2024-06-01</td>
+                </tr>
+            </table>
+        </div>
+        
+        <!-- 우측 컨테이너: 이미지 제목과 설명 -->
+        <div class="right-container">
+            <div class="image-title">
+                이미지 제목: 여기에 제목을 입력하세요
+            </div>
+            <div class="image-description">
+                여기에 이미지 설명을 입력하세요. 이 영역은 설명 텍스트로 채워집니다.
+            </div>
+        </div>
+    </div>
+</body>
+</html>
